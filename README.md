@@ -1,6 +1,6 @@
 ## Getting started
 
-In the project directory, start of by running:
+In the project directory, start off by running:
 
 ### `npm install`
 
@@ -25,7 +25,7 @@ Relevant files that are prepared to be worked in are:
 
 #### App.tsx
 
-- `App.tsx` file comes prepared with a Modal element `<div className="App-modal"/>` containing two `<div/>`elements.
+- `App.tsx` file comes prepared with a Modal element `<div className="App-modal"/>` containing two `<div/>` elements.
   - `<div className="App-modal-main"/>` that should contain the title, some informative text and the table.
   - `<div className="App-modal-sidebar"/>` which will display an image, a total and a button.
 - The image file is located here: `public/suit.png`
