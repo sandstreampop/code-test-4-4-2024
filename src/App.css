@@ -21,14 +21,57 @@ body {
 
   display: flex;
   min-width: 1400px;
-  overflow: auto;
+  font-size: 0.8rem;
 }
 
 .App-modal-main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
   flex: 1 1 auto;
+  padding: 3rem;
+
+  h1 {
+    font-weight: 300;
+    line-height: 1.5;
+  }
+}
+
+.App-modal-main-text {
+  margin-left: 1rem;
+  line-height: 2;
+}
+
+.App-modal-main-table {
+  display: flex;
+  flex-direction: column;
+  overflow-x: scroll;
+  line-height: 2;
+}
+
+.App-modal-main-table-rows {
+  display: grid;
+  grid-template-columns: 20% 50% 15% 15%;
+  row-gap: 0.5rem;
+  padding-block: 0.5rem;
 }
 
 .App-modal-sidebar {
   width: 450px;
   background-color: rgba(251, 247, 240, 1);
+}
+
+.divider {
+  height: 0px;
+  grid-column: 2/-1;
+  border-bottom: 1px solid;
+  border-color: #99999980;
+
+  &.full {
+    grid-column: 1/-1;
+  }
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
