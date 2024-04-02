@@ -47,6 +47,7 @@ body {
   flex-direction: column;
   overflow-x: scroll;
   line-height: 2;
+  padding-inline: 0.5rem;
 }
 
 .App-modal-main-table-rows {
@@ -62,10 +63,9 @@ body {
 }
 
 .divider {
-  height: 0px;
+  height: 1px;
+  background-color: #99999990;
   grid-column: 2/-1;
-  border-bottom: 1px solid;
-  border-color: #99999980;
 
   &.full {
     grid-column: 1/-1;

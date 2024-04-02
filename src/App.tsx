@@ -25,8 +25,8 @@ function App() {
             </p>
           </div>
           <div className="App-modal-main-table">
-            <div className="divider" />
             <div className="App-modal-main-table-rows">
+              <div className="divider full" />
               <div>
                 <strong>CATEGORY</strong>
               </div>
@@ -39,8 +39,8 @@ function App() {
               <div>
                 <strong>QUANTITY</strong>
               </div>
+              <div className="divider full" />
             </div>
-            <div className="divider" />
             <div className="App-modal-main-table-rows">
               {suitData.map((category) => (
                 <>
