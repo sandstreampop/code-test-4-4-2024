@@ -1,21 +1,3 @@
-## Getting started
-
-In the project directory, start off by running:
-
-### `npm install`
-
-Followed by:
-
-### `npm start`
-
-Runs the app in the development mode.
-
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.
-
-You will also see any lint errors in the console.
-
 ## Assignment
 
 The assignment is to implement the UX-design found here [Figma](https://www.figma.com/file/oR4fbrAC9Z8WCBINhxYaAZ/CodeTestDesign?type=design&node-id=0%3A1&mode=design&t=48frkwoNhDeFj4rV-1). Don't worry too much about finding the absolute pixel value of margins, paddings or font sizes. Just use your eyes to try to match the design to a good enough level.
